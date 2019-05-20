@@ -7,6 +7,7 @@ RUN yum update -y && \
     make \
     openssl-devel \
     libxml2-devel \
+    libarchive-devel \
     boost-devel \
     gcc \
     gcc-c++ \
