@@ -12,7 +12,9 @@ RUN yum update -y && \
     gcc-c++ \
     git \
     libtool \
-    java-1.8.0-openjdk-headless
+    java-1.8.0-openjdk-headless \
+    wget && \
+    yum clean all -y
 
 WORKDIR /usr/local
 
