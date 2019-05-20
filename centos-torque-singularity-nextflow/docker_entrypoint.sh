@@ -1,4 +1,5 @@
 #!/bin/bash
+# borrowed from https://bitbucket.org/deardooley/agave-docker.git on 20/05/2019
 
 set -e
 

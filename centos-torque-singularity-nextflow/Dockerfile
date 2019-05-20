@@ -1,5 +1,5 @@
 FROM centos:7
-# borrowed setup from https://bitbucket.org/deardooley/agave-docker.git on 20/05/2019
+# borrowed from https://bitbucket.org/deardooley/agave-docker.git on 20/05/2019
 
 # Install slurm
 RUN yum -y --enablerepo=centosplus install make perl-CPAN openssl-devel libxml2-devel boost-devel gcc gcc-c++ git tar libtool vim-minimal
