@@ -68,7 +68,7 @@ RUN VERSION=2.6.0 && \
     tar xvf singularity-$VERSION.tar.gz && \
     cd singularity-$VERSION && \
     ./configure --prefix=/usr/local && \
-    make && sudo make install
+    make && make install
 
 # install Nextflow
 WORKDIR /usr/local/nextflow
